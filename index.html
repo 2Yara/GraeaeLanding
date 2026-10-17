@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Студенческий стартап — получите грант на проект</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container header__inner">
+            <a href="#" class="logo">СтудСтартап</a>
+            <nav class="nav">
+                <a href="#about">О проекте</a>
+                <a href="#how">Как это работает</a>
+                <a href="#pricing">Условия</a>
+                <a href="#reviews">Отзывы</a>
+                <a href="#contact" class="btn btn--small">Оставить заявку</a>
+            </nav>
+            <a href="tel:+78000000000" class="header__phone">+7 (800) 000-00-00</a>
+        </div>
+    </header>
+
+    <!-- Презентация продукта -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">Получите грант на студенческий стартап до 1 000 000 ₽</h1>
+                <p class="hero__subtitle">Помогаем студентам упаковать идею, подготовить заявку и пройти онлайн-защиту. Оплата только после победы.</p>
+                <a href="#contact" class="btn btn--large">Получить бесплатную консультацию</a>
+            </div>
+            <div class="hero__image">
+                <div class="hero__placeholder">🎓</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Сильные стороны -->
+    <section class="section strengths" id="about">
+        <div class="container">
+            <h2 class="section__title">Почему с нами получается</h2>
+            <div class="grid grid--3">
+                <div class="card">
+                    <h3>Опыт 7 лет</h3>
+                    <p>Работаем с фондами и знаем требования экспертов изнутри.</p>
+                </div>
+                <div class="card">
+                    <h3>170 млн ₽</h3>
+                    <p>Привлечено средств для студенческих проектов.</p>
+                </div>
+                <div class="card">
+                    <h3>Оплата после результата</h3>
+                    <p>Вы платите только если заявка побеждает. 3–6% от суммы гранта.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Как это работает -->
+    <section class="section how" id="how">
+        <div class="container">
+            <h2 class="section__title">Как проходит подготовка</h2>
+            <ol class="steps">
+                <li><strong>Заявка.</strong> Оставляете контакты и коротко описываете идею.</li>
+                <li><strong>Разбор.</strong> Созваниваемся, проверяем идею на соответствие критериям.</li>
+                <li><strong>Упаковка.</strong> Структурируем проект, готовим документы и презентацию.</li>
+                <li><strong>Защита.</strong> Проводим предварительную демо-защиту перед экспертами.</li>
+                <li><strong>Результат.</strong> Подаём заявку и сопровождаем до получения гранта.</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- Блок доверия / цифры -->
+    <section class="section trust">
+        <div class="container trust__grid">
+            <div><strong>3 дня</strong><span>на подготовку срочной заявки</span></div>
+            <div><strong>1000+</strong><span>победителей программы «Студенческий стартап»</span></div>
+            <div><strong>0 ₽</strong><span>если заявка не победила</span></div>
+        </div>
+    </section>
+
+    <!-- Условия / стоимость -->
+    <section class="section pricing" id="pricing">
+        <div class="container">
+            <h2 class="section__title">Условия работы</h2>
+            <div class="pricing__box">
+                <p class="pricing__main">Оплата — <strong>3–6% от суммы гранта</strong> после победы.</p>
+                <ul class="pricing__list">
+                    <li>Бесплатная первичная консультация</li>
+                    <li>Подбор и развитие идеи</li>
+                    <li>Написание заявки по правилам фонда</li>
+                    <li>Подготовка к онлайн-защите</li>
+                    <li>Пост-поддержка по отчётности</li>
+                </ul>
+                <a href="#contact" class="btn">Обсудить проект</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Форма заявки -->
+    <section class="section contact" id="contact">
+        <div class="container contact__inner">
+            <div class="contact__text">
+                <h2 class="section__title">Оставьте заявку</h2>
+                <p>Перезвоним в течение рабочего дня, ответим на вопросы и скажем, с чего начать.</p>
+            </div>
+            <form class="form" id="leadForm">
+                <input type="text" name="name" placeholder="Ваше имя" required>
+                <input type="tel" name="phone" placeholder="Телефон" required>
+                <input type="email" name="email" placeholder="Email">
+                <textarea name="message" rows="3" placeholder="Коротко о проекте"></textarea>
+                <button type="submit" class="btn btn--full">Отправить заявку</button>
+                <p class="form__note">Нажимая кнопку, вы соглашаетесь с политикой обработки персональных данных.</p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section class="section reviews" id="reviews">
+        <div class="container">
+            <h2 class="section__title">Отзывы участников</h2>
+            <div class="grid grid--2">
+                <blockquote class="review">
+                    <p>«Выиграла студенческий стартап с проектом по автоматизации подсчёта клеток. Заявка стала частью магистерской диссертации».</p>
+                    <cite>Татьяна, магистрант</cite>
+                </blockquote>
+                <blockquote class="review">
+                    <p>«Помогли превратить идею в структурированный проект и подготовиться к защите. Грант получил с первого раза».</p>
+                    <cite>Алексей, бакалавр</cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div>
+                <p class="logo">СтудСтартап</p>
+                <p>Помощь студентам в подготовке заявок на грант.</p>
+            </div>
+            <div class="footer__contacts">
+                <a href="tel:+78000000000">+7 (800) 000-00-00</a>
+                <a href="mailto:info@studstartup.ru">info@studstartup.ru</a>
+            </div>
+            <div class="footer__social">
+                <a href="#">VK</a>
+                <a href="#">Telegram</a>
+            </div>
+        </div>
+        <div class="container footer__legal">
+            <small>© 2026 СтудСтартап. Не является публичной офертой.</small>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
