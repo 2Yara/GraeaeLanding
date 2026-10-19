@@ -275,17 +275,38 @@ body {
     font-size: 17px;
 }
 
-/* Команда */
-.team { background: var(--color-bg-alt); }
-.team__member {
+/* Руководитель проекта */
+.team {
+    background: var(--color-bg-alt);
+}
+
+.team__single {
+    max-width: 600px;
+    margin: 0 auto;
     background: #fff;
     border-radius: var(--radius);
-    padding: 28px;
+    padding: 40px 32px;
     box-shadow: var(--shadow);
     text-align: center;
+    border-top: 4px solid var(--color-accent);
 }
-.team__member h3 { color: var(--color-primary); margin-bottom: 8px; }
-.team__member p { color: var(--color-muted); font-size: 15px; }
+
+.team__single h3 {
+    color: var(--color-primary);
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.team__role {
+    color: var(--color-accent);
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.team__single p {
+    color: var(--color-muted);
+    font-size: 16px;
+}
 
 /* Форма */
 .contact__inner {
