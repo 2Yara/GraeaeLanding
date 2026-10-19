@@ -9,20 +9,16 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 const form = document.getElementById('leadForm');
-
 if (form) {
     form.addEventListener('submit', function (e) {
         e.preventDefault();
-
         const name = form.querySelector('[name="name"]').value.trim();
         const phone = form.querySelector('[name="phone"]').value.trim();
-
         if (!name || !phone) {
             alert('Пожалуйста, заполните имя и телефон.');
             return;
         }
-
-        alert(`Спасибо, ${name}! Заявка отправлена. Мы свяжемся с вами по номеру ${phone}.`);
+        alert(`Спасибо, ${name}! Ваш запрос отправлен. Мы свяжемся с вами.`);
         form.reset();
     });
 }
