@@ -1,4 +1,3 @@
-// Плавный скролл к секциям
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -9,7 +8,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Обработка формы (демо-режим)
 const form = document.getElementById('leadForm');
 
 if (form) {
@@ -24,7 +22,6 @@ if (form) {
             return;
         }
 
-        // Здесь можно добавить отправку на сервер или в CRM.
         alert(`Спасибо, ${name}! Заявка отправлена. Мы свяжемся с вами по номеру ${phone}.`);
         form.reset();
     });
